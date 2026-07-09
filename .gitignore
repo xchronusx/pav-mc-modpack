@@ -1,0 +1,5 @@
+*.zip
+*.mrpack
+packwiz
+packwiz.exe
+BUILD_CHANGELOG.md

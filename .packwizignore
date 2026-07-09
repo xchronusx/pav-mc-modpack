@@ -1,0 +1,7 @@
+.git/**
+.github/**
+scripts/**
+README.md
+.gitignore
+.packwizignore
+BUILD_CHANGELOG.md

@@ -1,0 +1,64 @@
+# Auto-publishes the modpack to CurseForge whenever mods change on main.
+# Requires repo secret: CURSEFORGE_TOKEN (from https://authors.curseforge.com/account/api-tokens)
+# Requires repo variables: CF_PROJECT_ID, MC_VERSION (e.g. 1.21.1)
+
+name: Publish modpack to CurseForge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "mods/**"
+      - "pack.toml"
+      - "index.toml"
+      - "config/**"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # needed to diff against previous commit for the changelog
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "stable"
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Read pack metadata
+        id: meta
+        run: |
+          NAME=$(grep -m1 '^name' pack.toml | cut -d'"' -f2)
+          VERSION=$(grep -m1 '^version' pack.toml | cut -d'"' -f2)
+          echo "name=$NAME" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION-build.${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+
+      - name: Generate changelog from this commit's mod changes
+        run: bash scripts/changelog.sh > BUILD_CHANGELOG.md
+
+      - name: Export CurseForge zip (client)
+        run: |
+          packwiz refresh
+          packwiz curseforge export
+          ls *.zip
+
+      - name: Upload to CurseForge
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          curseforge-id: ${{ vars.CF_PROJECT_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          files: "*.zip"
+          name: "${{ steps.meta.outputs.name }} ${{ steps.meta.outputs.version }}"
+          version: "${{ steps.meta.outputs.version }}"
+          version-type: release
+          loaders: fabric
+          game-versions: ${{ vars.MC_VERSION }}
+          changelog-file: BUILD_CHANGELOG.md
+          retry-attempts: 2
+          retry-delay: 10000
