@@ -42,12 +42,17 @@ metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
-hash = "fbb61854650a7cdf7eb2244e0599bae2f0541864a9b7cf74f8272972e6bdb18e"
+hash = "ed55fdea501426bbabdbe8f3ed4440158a17c435b978d5d38b4a926e53cdfd6f"
+metafile = true
+
+[[files]]
+file = "mods/choicetheorems-overhauled-village.pw.toml"
+hash = "869f8705c95fc50d5f5fc08c295e4dadbf5feb8f8f01ba9cf0d129f9e92ef2f6"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "a06ef129798265e0d7249426fb0ed5c506725b0460dc3dfdb975b8978480895e"
+hash = "f259fadfd878ad1cc800a87b66a2fb46716c83b2fb1e3fd67a034ff215b3a53b"
 metafile = true
 
 [[files]]
@@ -57,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "eb7903d345e8f8131561fc51bfd702ddd355c675661921af08e9d8499e7a8d7c"
+hash = "37942f131119475931730377cb050b5b17aa76568584d070856313d241bff7a2"
 metafile = true
 
 [[files]]
@@ -81,18 +86,13 @@ hash = "ea4a2d6585e931d9bb70e280c45c07751846c024b7244e2011fb6f34b1cf6279"
 metafile = true
 
 [[files]]
-file = "mods/ct-overhaul-village.pw.toml"
-hash = "bf52cc45d7bc80a09dd65f354631f04162effeef67de8f510f41690e0fd8a776"
-metafile = true
-
-[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "b920424812559b855feb736349ba2e8a94be41b4152712870c84626658e89fa7"
 metafile = true
 
 [[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "179c9360bacecf8c8dd807ff41ef77cbca6a7c6832362bd8ea8e2c10f1143b18"
+file = "mods/distant-horizons.pw.toml"
+hash = "913e4b157209dee0caf81d85916f048d20522a11a44650f39bd5d959f6c1a600"
 metafile = true
 
 [[files]]
@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "2ccce9c28059ea90a5457771de06a69b0a2d1f06d48f8add48a38f1a2307da3c"
+hash = "730542bd1f0e45a70d399d6fe06deb8572d07d46ccc10973a090ddcc70657c0c"
 metafile = true
 
 [[files]]
@@ -161,8 +161,8 @@ hash = "494f6a8cfbabc961b0cef798314fe42c4c8da57bf8b36d53c52c52573a289897"
 metafile = true
 
 [[files]]
-file = "mods/iris.pw.toml"
-hash = "5127c58dc92fe8860d29ad2d05e7c2ea7b973390f41aec73dd2017953f2d1a3e"
+file = "mods/irisshaders.pw.toml"
+hash = "b8cc1ec7e749b47cdd32e9fad8010a49ac75e5b0e8630590ecca69b5b638bed0"
 metafile = true
 
 [[files]]
@@ -252,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "24d74f59642df949f55a342469e43de9dd0b5bb24c701dc233cc0c61a48adc30"
+hash = "df3aefb5f707a4668863eb9e56bb9e02477b1d8fdf2a2d9c3764bcbad5474794"
 metafile = true
 
 [[files]]
@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "723a13737a51aa682f385ede7e4bfa925b1dfb435436ab2f69dc25c4be1b2c04"
+hash = "5a22e58b027904128ac29ee605e651c267977c1985d51c161c035bb7b1e5991e"
 metafile = true
 
 [[files]]
@@ -323,4 +323,9 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "eb9876fa0317ffa09fe9df3b615d3567086830c1274e2856c73c533717d53fae"
+metafile = true
+
+[[files]]
+file = "plugins/simple-voice-chat.pw.toml"
+hash = "0f28ff4bd4689ed059af62a7927ad340d5bd5ab43241162fc35d67cc64245a94"
 metafile = true

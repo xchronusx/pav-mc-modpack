@@ -1,0 +1,13 @@
+name = "Simple Voice Chat"
+filename = "voicechat-bukkit-2.6.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d02324ee4dcc40ba9501cf889e14373e419cfbb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8293358
+project-id = 498303
