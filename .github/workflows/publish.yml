@@ -10,6 +10,8 @@ on:
     branches: [main]
     paths:
       - "mods/**"
+      - "resourcepacks/**"
+      - "shaderpacks/**"
       - "pack.toml"
       - "index.toml"
       - "config/**"

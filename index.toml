@@ -1,6 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = "complementary-reimagined.pw.toml"
+hash = "335d3e0f28b42381f929c9997dd188cd656178904833c2d1b01dfd3e098b0569"
+metafile = true
+
+[[files]]
+file = "complementary-unbound.pw.toml"
+hash = "d5bbf1d80ecd2261d38311b897469fdd2dd48029bc520193bfefbc4407f5cc81"
+metafile = true
+
+[[files]]
 file = "mods/advanced-netherite.pw.toml"
 hash = "97a932ab9ac4549eb0504c860002226f2f1c5773bea519c449d9235d9224a380"
 metafile = true
@@ -323,4 +333,9 @@ metafile = true
 [[files]]
 file = "mods/yacl.pw.toml"
 hash = "eb9876fa0317ffa09fe9df3b615d3567086830c1274e2856c73c533717d53fae"
+metafile = true
+
+[[files]]
+file = "resourcepacks/patrix-32x.pw.toml"
+hash = "f448beee2394e19dfaf7ed5e267e86ca2d1b4508c1998773ad9eac0a4ed0bd8f"
 metafile = true

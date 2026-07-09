@@ -15,7 +15,7 @@ modname() {
 added=() updated=() removed=()
 
 while IFS=$'\t' read -r status path _; do
-  case "$path" in mods/*.pw.toml) ;; *) continue ;; esac
+  case "$path" in mods/*.pw.toml|resourcepacks/*.pw.toml|shaderpacks/*.pw.toml) ;; *) continue ;; esac
   case "$status" in
     A) added+=("$(modname HEAD "$path")") ;;
     M) updated+=("$(modname HEAD "$path")") ;;
