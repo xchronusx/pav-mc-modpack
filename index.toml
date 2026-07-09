@@ -325,7 +325,3 @@ file = "mods/yacl.pw.toml"
 hash = "eb9876fa0317ffa09fe9df3b615d3567086830c1274e2856c73c533717d53fae"
 metafile = true
 
-[[files]]
-file = "plugins/simple-voice-chat.pw.toml"
-hash = "0f28ff4bd4689ed059af62a7927ad340d5bd5ab43241162fc35d67cc64245a94"
-metafile = true
