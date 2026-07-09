@@ -1,0 +1,13 @@
+name = "Enderscape"
+filename = "enderscape-fabric-2.1.0+mc1.21.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc23469ee0845df9a4961db9cb1182d55e7ed2b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7470603
+project-id = 536638

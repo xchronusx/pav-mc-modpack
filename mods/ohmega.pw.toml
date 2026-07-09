@@ -1,0 +1,13 @@
+name = "Ohmega"
+filename = "ohmega-1.5.20-fabric+1.21.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d3db78b4d0f72cd685c43d0b5dc13dd49ad80506"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8286522
+project-id = 889368

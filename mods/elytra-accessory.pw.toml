@@ -1,0 +1,13 @@
+name = "Elytra Accessory"
+filename = "elytra_accessory-1.3.2-fabric+1.21.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f6518697dba2399fb08809a39fdb7e511a1880dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7761020
+project-id = 1085348

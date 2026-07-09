@@ -1,0 +1,13 @@
+name = "BeyondEnchant"
+filename = "BeyondEnchant-1.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "99c93b5a4636b15c21b2e93d075237f00eff3172"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7389884
+project-id = 1135664

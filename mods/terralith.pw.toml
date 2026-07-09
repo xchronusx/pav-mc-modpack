@@ -1,0 +1,13 @@
+name = "Terralith"
+filename = "Terralith_1.21.11_v2.6.1_Fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "982e7e763d91765e86e4bf6cb1407ebd2eac0c00"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7841458
+project-id = 513688

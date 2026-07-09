@@ -1,0 +1,13 @@
+name = "LightAura"
+filename = "LightAura-Fabric-8.8.4.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "8024af13bc137750f3a4501df4ec9866f867dd7d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7318209
+project-id = 1210744

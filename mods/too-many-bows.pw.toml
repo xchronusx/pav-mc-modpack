@@ -1,0 +1,13 @@
+name = "Too Many Bows"
+filename = "too_many_bows-fabric-1.21.11-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "46e112ec421209a209ae207a5be6af168cfa3297"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8012475
+project-id = 1141533

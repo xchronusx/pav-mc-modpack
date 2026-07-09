@@ -1,0 +1,13 @@
+name = "Sort It Out!"
+filename = "sort_it_out-fabric-1.4.2+1.21.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "11839654a673247168566fcfdb94fabcce083da1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8155999
+project-id = 1215281
